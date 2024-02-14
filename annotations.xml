@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <segments>
+        <segment>
+          <id>36618</id>
+          <start>0</start>
+          <stop>7</stop>
+          <url>https://cvat2.trainingdata.solutions/api/jobs/36618</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>TrainingData</username>
+        <email/>
+      </owner>
+      
+      <labels>
+        <label>
+          <name>Miner</name>
+          <color>#ff007c</color>
+          <type>rectangle</type>
+          <attributes>
+            <attribute>
+              <name>is_sitting</name>
+              <mutable>False</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2023-09-14 06:04:01.127291+00:00</dumped>
+  </meta>
+  <image id="1" name="images/1.jpg" width="223" height="298">
+    <box label="Miner" source="manual" occluded="0" xtl="51.60" ytl="85.00" xbr="178.30" ybr="249.20" z_order="0">
+      <attribute name="is_sitting">true</attribute>
+    </box>
+  </image>
+  <image id="2" name="images/2.jpg" width="990" height="667">
+    <box label="Miner" source="manual" occluded="0" xtl="417.90" ytl="239.50" xbr="559.30" ybr="554.20" z_order="0">
+      <attribute name="is_sitting">true</attribute>
+    </box>
+  </image>
+  <image id="3" name="images/3.jpg" width="600" height="455">
+    <box label="Miner" source="manual" occluded="0" xtl="159.08" ytl="164.90" xbr="345.20" ybr="393.33" z_order="0">
+      <attribute name="is_sitting">false</attribute>
+    </box>
+  </image>
+  <image id="4" name="images/4.jpg" width="250" height="334">
+    <box label="Miner" source="manual" occluded="0" xtl="85.70" ytl="103.20" xbr="156.20" ybr="234.30" z_order="0">
+      <attribute name="is_sitting">true</attribute>
+    </box>
+  </image>
+  <image id="5" name="images/5.jpg" width="1680" height="1260">
+    <box label="Miner" source="manual" occluded="0" xtl="620.40" ytl="229.70" xbr="1171.60" ybr="1185.00" z_order="0">
+      <attribute name="is_sitting">true</attribute>
+    </box>
+  </image>
+  <image id="6" name="images/6.jpg" width="604" height="453">
+    <box label="Miner" source="manual" occluded="0" xtl="234.80" ytl="128.00" xbr="363.60" ybr="327.80" z_order="0">
+      <attribute name="is_sitting">true</attribute>
+    </box>
+  </image>
+  <image id="7" name="images/7.jpg" width="320" height="240">
+    <box label="Miner" source="manual" occluded="0" xtl="117.80" ytl="21.80" xbr="267.00" ybr="237.00" z_order="0">
+      <attribute name="is_sitting">true</attribute>
+    </box>
+  </image>
+  <image id="8" name="images/8.jpeg" width="450" height="300">
+    <box label="Miner" source="manual" occluded="0" xtl="180.40" ytl="44.70" xbr="289.00" ybr="250.20" z_order="0">
+      <attribute name="is_sitting">true</attribute>
+    </box>
+  </image>
+</annotations>
+
